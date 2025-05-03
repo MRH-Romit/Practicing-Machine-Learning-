@@ -18,55 +18,65 @@ This repository contains my practice work as I learn and explore machine learnin
 To run this project locally:
 
 1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/your-username/your-repo.git
-   cd your-repo
-Create a virtual environment:
+    ```bash
+    git clone https://github.com/your-username/your-repo.git
+    cd your-repo
+    ```
 
-bash
-Copy
-Edit
-python -m venv machine-learning-env
-Activate the virtual environment:
+2. **Create a virtual environment**:
+    ```bash
+    python -m venv machine-learning-env
+    ```
 
-On Windows:
+3. **Activate the virtual environment**:
 
+    On Windows:
+    ```bash
+    .\machine-learning-env\Scripts\activate
+    ```
+
+    On Linux/macOS:
+    ```bash
+    source machine-learning-env/bin/activate
+    ```
+
+4. **Install dependencies**:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+5. **Run your machine learning scripts**:
+    ```bash
+    python linear_regression.py
+    ```
+
+---
+
+## 🧠 Dependencies
+
+The dependencies used in this project are listed in `requirements.txt`:
+
+- `numpy`
+- `matplotlib`
+- `pandas`
+- `seaborn`
+- `scikit-learn`
+- `jupyter`
+- `joblib`
+
+You can install them with:
 ```bash
-.\machine-learning-env\Scripts\activate
+pip install -r requirements.txt
 ```
 
-On Linux/macOS:
+---
 
-```bash
-source machine-learning-env/bin/activate
-Install dependencies:
+## 📜 License
 
-bash
-Copy
-Edit
-pip install -r requirements.txt
-Run your machine learning scripts:
+This project is licensed under the MIT License. See the `LICENSE` file for details.
 
-bash
-Copy
-Edit
-python linear_regression.py
-🧠 Dependencies
-Listed in requirements.txt:
+---
 
-nginx
-Copy
-Edit
-numpy
-matplotlib
-pandas
-seaborn
-scikit-learn
-jupyter
-joblib
-Install them with:
+## 🤝 Contributing
 
-bash
-Copy
-Edit
-pip install -r requirements.txt
+Contributions are welcome! Feel free to open issues or submit pull requests to improve this repository.
