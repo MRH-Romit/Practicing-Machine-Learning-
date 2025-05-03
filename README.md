@@ -17,20 +17,17 @@ This repository contains my practice work as I learn and explore machine learnin
 
 To run this project locally:
 
-### 1. Clone the repository:
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/your-username/your-repo.git
+   cd your-repo
+Create a virtual environment:
 
-```bash
-git clone https://github.com/your-username/your-repo.git
-cd your-repo
-```
-
-### 2. Create a virtual environment:
-
-```bash
+bash
+Copy
+Edit
 python -m venv machine-learning-env
-```
-
-### 3. Activate the virtual environment:
+Activate the virtual environment:
 
 On Windows:
 
@@ -42,40 +39,34 @@ On Linux/macOS:
 
 ```bash
 source machine-learning-env/bin/activate
-```
+Install dependencies:
 
-### 4. Install dependencies:
-
-```bash
+bash
+Copy
+Edit
 pip install -r requirements.txt
-```
+Run your machine learning scripts:
 
-### 5. Run your machine learning scripts:
-
-```bash
+bash
+Copy
+Edit
 python linear_regression.py
-```
+🧠 Dependencies
+Listed in requirements.txt:
 
----
+nginx
+Copy
+Edit
+numpy
+matplotlib
+pandas
+seaborn
+scikit-learn
+jupyter
+joblib
+Install them with:
 
-## 🧠 Dependencies
-
-The following libraries are used in this project:
-
-| Library       | Purpose                              |
-|---------------|--------------------------------------|
-| numpy         | Numerical computations               |
-| matplotlib    | Data visualization                   |
-| pandas        | Data manipulation                    |
-| seaborn       | Statistical data visualization       |
-| scikit-learn  | Machine learning algorithms          |
-| jupyter       | Interactive notebook development     |
-| joblib        | Model persistence (saving/loading)   |
-
-📦 All dependencies are listed in `requirements.txt`.
-
-To install them manually, run:
-
-```bash
+bash
+Copy
+Edit
 pip install -r requirements.txt
-```
