@@ -6,8 +6,8 @@ This repository contains my practice work as I learn and explore machine learnin
 
 ## 📁 Project Structure
 
-- `Regression Analysis/` – Contains various regression techniques like Simple Linear Regression, Multiple Linear Regression, Polynomial Regression, and Support Vector Regression.
-- `Resources/` – Includes datasets and additional resources for machine learning.
+- `Regression Analysis/` – Contains various regression techniques like Simple Linear Regression, Multiple Linear Regression, Polynomial Regression, and Support Vector Regression(more incoming ig).
+
 - `requirements.txt` – List of dependencies used in the project.
 - `machine-learning-env/` – Local virtual environment (excluded from Git).
 
