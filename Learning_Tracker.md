@@ -9,8 +9,9 @@
 ## In Progress
 - Decision Tree Regression
 - Random Forest Regression
+- Support Vector Regression analysis 
 
-## Upcoming Topics
+## Upcoming Topics i want to learn
 - Artificial Neural Networks
 - Convolutional Neural Networks
 - Dimensionality Reduction (PCA, LDA, etc.)
