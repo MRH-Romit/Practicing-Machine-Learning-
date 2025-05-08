@@ -6,8 +6,8 @@ This repository contains my practice work as I learn and explore machine learnin
 
 ## 📁 Project Structure
 
-- `Salary_Data.csv` – Sample dataset used for regression analysis.
-- `linear_regression.py` – Basic linear regression implementation.
+- `Regression Analysis/` – Contains various regression techniques like Simple Linear Regression, Multiple Linear Regression, Polynomial Regression, and Support Vector Regression.
+- `Resources/` – Includes datasets and additional resources for machine learning.
 - `requirements.txt` – List of dependencies used in the project.
 - `machine-learning-env/` – Local virtual environment (excluded from Git).
 
@@ -18,56 +18,58 @@ This repository contains my practice work as I learn and explore machine learnin
 To run this project locally:
 
 1. **Clone the repository**:
+
     ```bash
-    git clone https://github.com/your-username/your-repo.git
-    cd your-repo
+    git clone https://github.com/your-username/Practicing-Machine-Learning-.git
+    cd Practicing-Machine-Learning-
     ```
 
 2. **Create a virtual environment**:
+
     ```bash
     python -m venv machine-learning-env
     ```
 
 3. **Activate the virtual environment**:
 
-    On Windows:
     ```bash
     .\machine-learning-env\Scripts\activate
     ```
 
-    On Linux/macOS:
-    ```bash
-    source machine-learning-env/bin/activate
-    ```
-
 4. **Install dependencies**:
+
     ```bash
     pip install -r requirements.txt
     ```
 
-5. **Run your machine learning scripts**:
+5. **Run Jupyter Notebook or Lab**:
+
     ```bash
-    python linear_regression.py
+    jupyter notebook
+    ```
+
+    or
+
+    ```bash
+    jupyter lab
     ```
 
 ---
 
 ## 🧠 Dependencies
 
-The dependencies used in this project are listed in `requirements.txt`:
+The main dependencies for this project include:
 
-- `numpy`
-- `matplotlib`
-- `pandas`
-- `seaborn`
-- `scikit-learn`
-- `jupyter`
-- `joblib`
+- `numpy`, `pandas` – Data manipulation
+- `matplotlib`, `seaborn`, `plotly` – Data visualization
+- `scikit-learn` – Machine learning algorithms
+- `tensorflow`, `keras` – Deep learning
+- `xgboost`, `lightgbm` – Gradient boosting
+- `jupyter` – Interactive notebooks
 
-You can install them with:
+All dependencies are listed in `requirements.txt` and can be installed with:
+
 ```bash
 pip install -r requirements.txt
 ```
-
----
 

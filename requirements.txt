@@ -5,3 +5,12 @@ seaborn
 scikit-learn
 jupyter
 joblib
+tensorflow
+keras
+opencv-python
+pillow
+plotly
+scipy
+statsmodels
+xgboost
+lightgbm
