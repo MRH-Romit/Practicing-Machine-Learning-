@@ -17,11 +17,17 @@ Welcome to my Machine Learning practice repository! Here, I'm documenting my lea
 2. Open the Jupyter Notebooks to see the code and visualizations.
 3. Follow along or use the notes to start your own ML journey.
 
-## Why Share?
+## Setting Up the Environment
 
-I'm sharing this to inspire others and connect with like-minded learners. Let's grow together! 🌟
+To set up the environment and install the required dependencies, follow these steps:
 
----
+1. Ensure you have Python installed on your system.
+2. Navigate to the project directory in your terminal.
+3. Run the following command to install the dependencies:
 
-**Tags:** #MachineLearning #LearningJourney #Beginner
+```bash
+pip install -r requirements.txt
+```
+
+This will install all the necessary libraries to run the notebooks and experiments.
 
