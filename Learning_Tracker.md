@@ -11,7 +11,7 @@
 ## In Progress
 
 - Support Vector Regression analysis 
-- logistic regression analysis
+- logistic regression analysis (continuing)
 
 ## Upcoming Topics i want to learn
 - Artificial Neural Networks
